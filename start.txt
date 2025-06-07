@@ -1,0 +1,4 @@
+./cpuminer -a sha256d -o http://127.0.0.1:8332 -u amr -p Asdf6789 --coinbase-addr=gt1qw3zp0destks4kq7sj7xh9jjldm43d9nyedwl0q --no-getwork --no-stratum
+
+nohup /home/ubuntu/cpuminer-opt/./cpuminer -a sha256d -o http://127.0.0.1:8332 -u amr -p Asdf6789 --coinbase-addr=gt1qw3zp0destks4kq
+7sj7xh9jjldm43d9nyedwl0q --no-getwork --no-stratum > miner.log 2>&1 &
